@@ -1,0 +1,55 @@
+{
+  "name": "movie-find",
+  "version": "1.0.0",
+  "description": "Search for your favorite movie",
+  "main": "src/js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "stage-0",
+      "react"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cybot1711/movie-find.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "javascript",
+    "react",
+    "bootstrap",
+    "jquery",
+    "webpack",
+    "react-dom",
+    "flux"
+  ],
+  "author": "Jahil Khalfe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cybot1711/movie-find/issues"
+  },
+  "homepage": "https://github.com/cybot1711/movie-find#readme",
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "flux": "^3.1.2",
+    "object-assign": "^4.1.0",
+    "react": "^15.4.2",
+    "reactify": "^1.1.1",
+    "vinyl-source-stream": "^1.1.0",
+    "webpack": "^1.14.0"
+  },
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "whatwg-fetch": "^2.0.1"
+  }
+}
